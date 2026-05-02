@@ -51,6 +51,9 @@ nav ul li a:hover {
    color: #ff4d6d;
    text-decoration: underline;
 }
+.shop1 {
+  color: #d63384;
+}
 
 .line {
     width: 100%;
@@ -124,7 +127,7 @@ input, select, textarea {
 }
 
 textarea {
-  height: 150px;
+  height: 175px;
   resize: none;
 }
 
