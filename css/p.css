@@ -20,11 +20,31 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 60px;
+    padding: 8px 9px;
     background-color: #fff;
     background-color:#FFF;
     margin-bottom: 0;
  }
+ nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 400px;
+    gap: 50px;
+ }
+  nav ul li {
+    margin-left: 30px;
+ }
+ nav ul li a {
+    text-decoration:none;
+    color: black;
+   font-size: 16px;
+   transition: 0.3s;
+   cursor: pointer;
+}
+nav ul li a:hover {
+   color: #ff4d6d;
+   text-decoration: underline;
+}
  
  
 
@@ -43,13 +63,13 @@ header {
 .part2 {
     color: #676666; 
 }
-nav ul {
+/* nav ul {
     display: flex;
     list-style: none;
 }
 nav ul li {
     margin-left: 30px;
-}
+} */
 .part1 {
     color: #333;
 }
@@ -58,23 +78,23 @@ nav ul li {
     font-size: 18px;
 }
 
-nav ul {
+/* nav ul {
     display: flex;
      list-style: none;
 }
  nav ul li {
     margin-left: 30px
- }
-nav ul li a {
+ } */
+/* nav ul li a {
     text-decoration: none;
     color: #333;
    font-size: 16px;
    transition: 0.3s;
-}
-nav ul li a:hover {
+} */
+/* nav ul li a:hover {
    color: #8e5562;
    text-decoration: underline;
-}
+} */
 .products1 {
     color: #d63384;
     text-decoration:none ;
