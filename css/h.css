@@ -42,7 +42,13 @@ nav ul li a:hover {
    color: #ff4d6d;
    text-decoration: underline;
 }
-
+.line5 {
+    width: 100%;
+    height: 1px;
+    background-color: #fcc0d8;
+    margin: 0px 0;
+    box-shadow: 0 5px 5px rgba(0, 0,0 , 0.5);
+}
 
 .brand {
     margin-top: 20px;
